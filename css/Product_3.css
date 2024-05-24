@@ -392,11 +392,12 @@ footer {
     border-radius: 10px;
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     
 }
 .bton:hover{
-    background-color: rgb(175, 175, 175);
+    background-color: green;
+    color: white;
 }
 
 .footer-container .btn {
@@ -431,3 +432,4 @@ footer {
 .credit span{
     color: var(--green);
 }
+
