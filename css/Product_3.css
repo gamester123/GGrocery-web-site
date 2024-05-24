@@ -248,22 +248,24 @@ table {
     margin-top: 2rem;
     margin-bottom: 5rem;
     background-color: white;
+    width: 80%;
 }
 
 th, td {
     padding: 12px 15px;
     border-bottom: 1px solid #ddd;
-    text-align: left;
+    text-align: center;
     border: 1px solid black;
 }
 
 th {
     background-color: greenyellow;
     font-weight: bold;
+    margin: auto;
 }
 
 tbody tr:hover {
-    background-color: #f0b8b885;
+    background-color: #ffffff85;
 }
 
 td img {
@@ -271,6 +273,7 @@ td img {
     height: 100px; 
     object-fit: cover; 
     border-radius: 8px; 
+    margin: auto;
 }
 
 
@@ -377,16 +380,34 @@ footer {
     width: 100%;
     box-sizing: border-box;
 }
+.bton{
+    width:100px;
+    height:30px;
+    box-sizing: content-box;
+    font-size: medium;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+.bton:hover{
+    background-color: rgb(175, 175, 175);
+}
 
 .footer-container .btn {
     padding: 10px 20px;
-    background-color: var(--green);
+    background-color:black;
     color: #fff;
     border: none;
     cursor: pointer;
     font-size: 1em;
     display: block;
-    width: 100%;
+    width: 100px;
     text-align: center;
     margin-top: 10px;
 }
@@ -407,6 +428,10 @@ footer {
     font-size: 2rem;
     color: var(--black);
 }
+.credit span{
+    color: var(--green);
+}
+
 .credit span{
     color: var(--green);
 }
