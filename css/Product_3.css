@@ -276,6 +276,26 @@ td img {
     margin: auto;
 }
 
+.bton{
+    width:100px;
+    height:30px;
+    box-sizing: content-box;
+    font-size: medium;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.bton:hover{
+    background-color: green;
+    color: white;
+}
+
 
 /*==order-link============================*/
 .order-link{
@@ -380,35 +400,16 @@ footer {
     width: 100%;
     box-sizing: border-box;
 }
-.bton{
-    width:100px;
-    height:30px;
-    box-sizing: content-box;
-    font-size: medium;
-    margin: auto;
-    justify-content: center;
-    align-content: center;
-    border: 2px black solid;
-    border-radius: 10px;
-    padding: 5px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    
-}
-.bton:hover{
-    background-color: green;
-    color: white;
-}
 
 .footer-container .btn {
     padding: 10px 20px;
-    background-color:black;
+    background-color: green;
     color: #fff;
     border: none;
     cursor: pointer;
     font-size: 1em;
     display: block;
-    width: 100px;
+    width: 100%;
     text-align: center;
     margin-top: 10px;
 }
