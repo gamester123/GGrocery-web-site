@@ -236,8 +236,11 @@ form:hover .form-input .fa{
     display: flex;
     justify-content: center;
     background: url(../Images/banner1.jpg) no-repeat;
-    background-image:cover;
     background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 110px;
     border-radius: 2rem;
     padding-top: 17rem;
     padding-bottom: 10rem;
